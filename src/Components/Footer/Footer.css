@@ -1,0 +1,78 @@
+.Footer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.footerculom .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.footerculom p {
+    width: 285px;
+    height: 72px;
+    color: #9F9F9F;
+    font-size: 16px;
+    
+}
+.footerculom {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.footerWrapper , .footerculom  li {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footerculom .foot {
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.NewsletterEmail {
+    width: 200px;
+    height: 21px;
+    border: none;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid #000;
+    margin-top: 5px;
+}
+.NewsletterEmail::placeholder {
+    font-size: 14px;
+}
+.Newsletter button {
+    border: none;
+    background: none;
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+}
+.Newsletter {
+    display: flex;
+    gap: 20px;
+}
+.copywrite {
+    font-size: 16px;
+    font-weight: 300;
+}
+@media (max-width: 750px) {
+
+    .Footer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .footerculom {
+        gap: 3px;
+    }
+    .Newsletter {
+        display: none;
+    }
+    .foot {
+        display: none;
+    }
+}

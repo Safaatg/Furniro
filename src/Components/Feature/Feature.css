@@ -1,0 +1,47 @@
+.Feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: #FAF3EA;
+    height: 270px;
+    margin-top: 147px;
+    margin-bottom: 64px;
+    
+}
+.FeatureFrame {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: left;
+}
+.FeatureFrame img {
+    width: 60px;
+    height: 60px;
+}
+.FeatureText h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.FeatureText p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #898989;
+}
+@media (max-width: 750px) {
+
+    .Feature {
+        flex-direction: column;
+        gap: 50px;
+        height: 600px;
+        
+    }
+    .FeatureFrame {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+        text-align: left;
+    }
+}

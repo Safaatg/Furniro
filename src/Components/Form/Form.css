@@ -1,0 +1,151 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 98px;
+}
+.Formwrapper {
+  display: flex;
+  gap: 150px;
+}
+.textwrapper {
+  text-align: center;
+  width: 644px;
+}
+.textwrapper h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.textwrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9f9f9f;
+  margin-bottom: 133px;
+}
+.left {
+  display: flex;
+  gap: 30px;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  margin-top: 10px;
+}
+.boxForm {
+  width: 212px;
+}
+.boxForm h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.boxForm p {
+  font-size: 16px;
+}
+.icon img {
+  width: 22px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+.input-box label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 36px;
+  margin-bottom: 22px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  width: 529px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #9f9f9f;
+}
+::placeholder {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+textarea {
+  width: 527px;
+  height: 120px;
+  flex-shrink: 0;
+}
+.btn-form {
+  width: 237px;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid var(--Primary, #b88e2f);
+  background: var(--Primary, #b88e2f);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 49px;
+  cursor: pointer;
+}
+.btn-form:hover {
+  background-color: #dbab39;
+}
+.input-box .form-alert {
+  color: red;
+  margin-top: 0.5rem;
+}
+.contactImg {
+  width: 1420px;
+}
+
+@media (max-width: 750px) {
+  .Formwrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  }
+  .textwrapper {
+    text-align: center;
+    width: 400px;
+  }
+  .right {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    max-width: 300px;
+  }
+  input,
+  textarea {
+    width: 60%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #9f9f9f;
+  }
+  .contactImg {
+    width: 600px;
+  }
+}

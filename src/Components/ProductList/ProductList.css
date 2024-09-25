@@ -1,0 +1,17 @@
+.ProductList {
+    margin: 20px;
+}
+
+.ProductListContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.row-Product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 40px;
+}
+

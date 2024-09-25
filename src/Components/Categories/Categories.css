@@ -1,0 +1,47 @@
+:root {
+    --black: #333333;
+}
+.Categories {
+    text-align: center;
+    padding-top: 113px;
+}
+ .text  {
+    padding-bottom: 88px;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--black);
+
+}
+.CategoriesProduct {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.box {
+
+}
+.box img {
+    width: 310px;
+height: 400px;
+flex-shrink: 0;
+}
+.box h3 {
+    font-size: 24px;
+    color: var(--black);
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+.box:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+@media (max-width: 750px) {
+
+    .CategoriesProduct {
+        flex-direction: column;
+    }
+}
